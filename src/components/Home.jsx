@@ -14,8 +14,7 @@ const Home = () => {
           I'm a Full Stack Developer
         </h2>
         <p className="text-[#9EC8B9] py-4 max-w-[700px]">
-          I'm a full-stack developer eager to innovate and create seamless
-          digital solutions with a passion for coding and problem-solving.
+          I specialize in crafting full-stack solutions, leveraging my expertise in both front-end and back-end technologies to create seamless and efficient web applications.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#A3C6C4] hover:text-[#354649]">
