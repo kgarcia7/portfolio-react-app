@@ -18,7 +18,7 @@ const Home = () => {
           digital solutions with a passion for coding and problem-solving.
         </p>
         <div>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-white hover:text-[#9EC8B9]">
+          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#A3C6C4] hover:text-[#354649]">
             View Work
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
