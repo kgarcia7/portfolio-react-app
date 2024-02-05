@@ -3,7 +3,7 @@ import KGimage from "../assets/KGimage.png";
 
 export const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#A7D7C5] text-[#5C8D89]">
+    <div name="about" className="w-full h-screen bg-[#1B4242] text-[#9EC8B9]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8">
@@ -16,9 +16,9 @@ export const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi. I'm Karina, nice to meet you. Please take a look around. </p>
-            <img className="max-h-[600px] w-full" src={KGimage} />
+            <img className="max-h-[600px] w-full" src={KGimage} alt="" />
           </div>
-          <div className="text-[#5C8D89]">
+          <div className="text-[#9EC8B9]">
             <p>
               As I transition into the dynamic realm of full stack web development, I bring with me a diverse background in health administration, where my focus centered on Revenue Cycle Management analysis.
             </p>
