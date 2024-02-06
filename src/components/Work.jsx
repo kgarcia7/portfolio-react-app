@@ -8,16 +8,20 @@ import SocialNetwork from '../assets/socialnetworkimg.png'
 
 const Work = () => {
   return (
-    <div name="work" className="w-full md:h-screen text-[#9EC8B9]  bg-[#1B4242]">
-      <div className="max-w-[-1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-[#9EC8B9] border-white">
+    <div name="skills" className="w-full md:h-screen bg-[#1B4242]">
+      {/* Container */}
+      <div className=" text-[#9EC8B9] max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+        <div>
+          <p className="text-4xl font-bold inline border-b-4 border-white text-[#9EC8B9]">
             Work
           </p>
           <p className="py-6">Check out some of my recent work</p>
         </div>
+
         {/* Container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+
+
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${WorkImg})` }}
@@ -30,12 +34,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://codyccl.github.io/WellmatesProject-1/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/CodyCCL/WellmatesProject-1.git">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -55,12 +59,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://note-taker-expressjs-challenge-0b10c4818e05.herokuapp.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/kgarcia7/note-taker.git">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -80,12 +84,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://kgarcia7.github.io/work-day-scheduler/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/kgarcia7/work-day-scheduler.git">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -105,12 +109,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://app.screencastify.com/v2/watch/4uSIyUAhIRqnhcJ7qaEj">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/kgarcia7/sql-employee-tracker.git">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -130,12 +134,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://text-editor-pwa-9f1q.onrender.com">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/kgarcia7/text-editor-PWA.git">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Code
                   </button>
                 </a>
@@ -155,12 +159,12 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://drive.google.com/file/d/1Wt5RlZpFKFsUYApS3ZlJplp2qfMbvvtX/view">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/kgarcia7/social-network-api-mongodb.git">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-black font-bold text-lg">
                     Code
                   </button>
                 </a>
