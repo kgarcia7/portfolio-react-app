@@ -3,7 +3,7 @@ import KGimage from "../assets/KGimage.png";
 
 export const About = () => {
   return (
-    <div name="about" className="w-full pt-40 md:h-screen bg-[#1B4242] text-[#9EC8B9]">
+    <div name="about" className="w-full pt-40 md:pt-0 md:h-screen bg-[#1B4242] text-[#9EC8B9]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8">
