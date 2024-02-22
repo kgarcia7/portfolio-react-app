@@ -3,7 +3,7 @@ import KGimage from "../assets/KGimage.png";
 
 export const About = () => {
   return (
-    <div name="about" className="w-full md:h-screen bg-[#1B4242] text-[#9EC8B9]">
+    <div name="about" className="w-full pt-40 md:h-screen bg-[#1B4242] text-[#9EC8B9]">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full px-4 grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8">
@@ -13,7 +13,7 @@ export const About = () => {
           </div>
           <div></div>
         </div>
-        <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
+        <div className="max-w-[1000px] w-full grid mb-10 sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi. I'm Karina, nice to meet you. Please take a look around. </p>
             <img className="mt-4 w-full max-w-[300px] mx-auto block sm:max-h-[600px] sm:flex sm:items-center sm:w-auto" src={KGimage} alt="" />
